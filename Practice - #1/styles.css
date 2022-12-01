@@ -1,0 +1,29 @@
+h1, h2 {
+    padding: auto;
+    margin-bottom: 30px;
+    color: white;
+    background-color: black;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: purple;
+  }
+  
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+  }
+  
+a:active {
+    color: red;
+  }
