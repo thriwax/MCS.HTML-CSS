@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 50px;
+  align-items: center;
+  color: #E50043;
+  padding: 50px;
+}
+
+.header__list {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #E50043;
+}
+
+.image {
+  height: 950px;
+
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+}
+
+h1 {
+
+
+  font-weight: 400;
+  font-size: 100px;
+
+
+  color: #E50043;
+}
+
+.container {
+  width: 1040px;
+  padding: 150px 0;
+  margin: 0 auto;
+}
+
+.main__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #F8BFC7;
+  border-radius: 20px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 24px;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.bottles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.bottle p {
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.mini__bottle {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  margin-right: 80px;
+}
+
+.footer {
+  font-weight: 400;
+  font-size: 50px;
+  color: #FFF;
+  padding: 50px;
+  background: #F8BFC7;
+}
