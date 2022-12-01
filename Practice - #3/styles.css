@@ -1,0 +1,69 @@
+.body {
+    margin: 0;
+    font-family: Helvetica;
+    height: 904px;
+    
+}
+
+.header {
+    padding: 20px;
+
+    color: white;
+    background-color: #FE1A19;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.recipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+
+.ingredients {
+    box-sizing: border-box;
+    border: 5px solid #E5E000;
+    border-radius: 30px;
+    padding: 33px;
+    width: 24em;
+
+    box-sizing: border-box;
+
+    font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    background: #FE1A19;
+    padding: 20px;
+    color: white;
+}
+
+.name_recp {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 41px;
+}
