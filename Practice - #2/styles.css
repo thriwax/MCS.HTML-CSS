@@ -1,0 +1,59 @@
+.background {
+    height: 1080px;
+    background-image: url(images/me.jpg);
+    background-size: cover ;
+  }
+
+.body {
+    font-family: Helvetica;
+    background-color: white;
+    margin: 0;
+}
+
+.header {
+   padding: 80px;
+
+   color: white;
+   background-color: #000000;
+
+   font-size: 50px;
+}
+
+.midder {
+    padding-left: 80px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    color: white;
+    background-color: #000000;
+
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+
+    background-color: white;
+    padding-left: 80px;
+    padding-top: 36px;
+    padding-bottom: 36px;  
+}
+
+p strong {
+    font-size: 50px;
+}
+
+.footer {
+    display: flex;
+
+    color: white;
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.footer-text {
+    font-size: 25px;
+    
+
+}
